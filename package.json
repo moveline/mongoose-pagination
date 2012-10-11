@@ -25,6 +25,13 @@
     "page",
     "limit"
   ],
-  "author": "Moveline <www.moveline.com>",
+  "author": "Moveline, Inc <info@moveline.com>",
+  "maintainers": [
+    "Christopher Garvis <christopher.garvis@moveline.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Moveline/mongoose-pagination.git"
+  },
   "license": "MIT"
 }
