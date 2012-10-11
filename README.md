@@ -1,5 +1,7 @@
 # mongoose-pagination [![Build Status](https://secure.travis-ci.org/Moveline/mongoose-pagination.png)](http://travis-ci.org/Moveline/mongoose-pagination)
 
+Mongoose Query Pagination
+
 ## Installation
 
 ```bash
