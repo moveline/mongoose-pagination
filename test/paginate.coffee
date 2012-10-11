@@ -41,3 +41,9 @@ describe 'Mongoose Pagination', ->
       query.options.should.include.keys 'skip', 'limit'
       query.options.skip.should.be.eq 30
       query.options.limit.should.be.eq 15
+
+    it 'should skip 30 when page is "3" and limit is "15"', ->
+      query.paginate "3", "15"
+      query.options.should.include.keys 'skip', 'limit'
+      query.options.skip.should.be.eq 30
+      query.options.limit.should.be.eq 15
