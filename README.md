@@ -1,4 +1,4 @@
-# mongoose-pagination
+# mongoose-pagination [![Build Status](https://secure.travis-ci.org/Moveline/mongoose-pagination.png)](http://travis-ci.org/Moveline/mongoose-pagination)
 
 ## Installation
 
@@ -14,8 +14,8 @@ require 'mongoose-pagination'
 model
   .find()
   .paginate(1, 10)
-  .exec(function(err, docs, total) {
-    console.log('total: ', total, 'docs: ', docs)
+  .exec(function(err, docs) {
+    console.log('docs: ', docs)
   });
 
 model
