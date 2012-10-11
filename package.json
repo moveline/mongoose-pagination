@@ -25,9 +25,17 @@
     "page",
     "limit"
   ],
-  "author": "Moveline, Inc <info@moveline.com>",
-  "maintainers": [
-    "Christopher Garvis <christopher.garvis@moveline.com>"
+  "author": {
+    "name": "Moveline Inc.",
+    "email": "info@moveline.com",
+    "url": "https://www.moveline.com"
+  },
+  "contributors": [
+  {
+    "name": "Christopher Garvis",
+    "email": "christopher.garvis@moveline.com",
+    "url": "https://github.com/cgarvis"
+  }
   ],
   "repository": {
     "type": "git",
