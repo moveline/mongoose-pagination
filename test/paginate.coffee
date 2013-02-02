@@ -1,12 +1,15 @@
 chai = require 'chai'
 mongoose = require 'mongoose'
-
 should = chai.should()
 
-require '../lib/pagination'
+pagination = require '../lib/pagination'
 
 describe 'Mongoose Pagination', ->
   query = null
+
+  before (done)->
+    pagination.install mongoose
+    done()
 
   beforeEach ->
     query = new mongoose.Query
