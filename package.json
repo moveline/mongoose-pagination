@@ -14,7 +14,7 @@
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --compilers coffee:coffee-script",
-    "prepublish": "coffee -c ./lib/pagination.coffee"
+    "postinstall": "coffee -c ./lib/pagination.coffee"
   },
   "keywords": [
     "mongoose",
